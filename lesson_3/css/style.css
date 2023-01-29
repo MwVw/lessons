@@ -1,0 +1,48 @@
+@import url("reset.css");
+
+/* .content {
+} */
+
+.list {
+
+   color: aqua;
+}
+
+p.text{
+   color: red;
+}
+
+
+/* .link {
+
+}
+
+.maininfo {
+} */
+
+
+.firstli, 
+.secondndli,
+.thirdli {
+
+   color: blue;
+
+}
+
+h2 {
+
+   color: black;
+}
+
+.fourthli p {
+
+   color: yellow;
+
+}
+
+.fifthli * {
+
+   color: green;
+
+}
+
