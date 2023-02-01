@@ -1,0 +1,71 @@
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css?family=Blaka:regular&display=swap");
+@import url("fonts.css");
+
+body{
+   font-family: "IntelOne Display", serif;
+   /* font-style: italic;  */
+}
+
+h1,
+h2,
+h3{
+   font-family: "Blaka", serif;
+   text-transform: uppercase;
+}
+
+.picture,
+.picture2{
+   text-align: center;
+}
+
+.picture3,
+.picture5{
+   text-align: right;
+}
+
+h1{
+      font-size: 80px;
+      text-align: center;
+      color: #000;
+}
+h2{
+      font-size: 50px;
+      text-align: left;
+      color: dimgray;
+      text-decoration: underline;
+      line-height: 2.5;
+}
+h3{
+   font-size: 35px;
+   text-align: right;
+   color: rgb(120, 119, 117);
+   text-decoration: underline;
+}
+
+.list{
+   font-size: 23px;
+   font-style: italic;
+   letter-spacing: 3px;
+   text-transform: uppercase;
+
+}
+
+.text{
+   font-family: "FrutigerLTStd" serif;
+   font-weight: 300;
+   text-indent: 20px;
+   font-size: 18px;
+   line-height: 1.5;
+   letter-spacing: 1.5px;
+   word-spacing: 2px;
+
+}
+
+.text span{
+   text-shadow: 2px 2px 5px #000, -2px -2px 2px red;
+}
+
+
+
+

@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'IntelOne Display';
+    src: url('IntelOneDisplay-Bold.woff2') format('woff2'),
+        url('IntelOneDisplay-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IntelOne Display';
+    src: url('IntelOneDisplay-Light.woff2') format('woff2'),
+        url('IntelOneDisplay-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IntelOne Display';
+    src: url('IntelOneDisplay-Medium.woff2') format('woff2'),
+        url('IntelOneDisplay-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
