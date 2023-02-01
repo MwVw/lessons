@@ -1,0 +1,53 @@
+@font-face {
+   font-family: 'IntelOne Display';
+   src: url('../fonts/IntelOneDisplay-Bold.woff2') format('woff2'),
+       url('../fonts/IntelOneDisplay-Bold.woff') format('woff');
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'IntelOne Display';
+   src: url('../fonts/IntelOneDisplay-Light.woff2') format('woff2'),
+       url('../fonts/IntelOneDisplay-Light.woff') format('woff');
+   font-weight: 300;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'IntelOne Display';
+   src: url('../fonts/IntelOneDisplay-Medium.woff2') format('woff2'),
+       url('../fonts/IntelOneDisplay-Medium.woff') format('woff');
+   font-weight: 500;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'FrutigerLTStd';
+   src: url('../FrutigerLTStd-Bold.woff2') format('woff2'),
+       url('../FrutigerLTStd-Bold.woff') format('woff');
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'FrutigerLTStd';
+   src: url('../FrutigerLTStd-Italic.woff2') format('woff2'),
+       url('../FrutigerLTStd-Italic.woff') format('woff');
+   font-weight: normal;
+   font-style: italic;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'FrutigerLTStd';
+   src: url('../FrutigerLTStd-Light.woff2') format('woff2'),
+       url('../FrutigerLTStd-Light.woff') format('woff');
+   font-weight: 300;
+   font-style: normal;
+   font-display: swap;
+}
