@@ -1,0 +1,144 @@
+@import url("reset.css");
+@import url("fonts.css");
+
+header{
+   font-family: "Unbounded", serif;
+   margin: 0 auto;
+   max-width: 1300px;
+}
+
+body{
+   font-family: "Poppins", serif;
+   font-weight: 300;
+   font-size: 14px;
+   color: #6C757D;
+   line-height: 178.571429%; /* 25/14 */
+}
+
+.head-container{
+   margin: 80px 0;
+}
+h1{
+   font-size: 35px;
+   font-weight: 700;
+   color: #000;
+   margin-bottom: 20px;
+}
+/* .head-title-items {
+   
+}  */
+.list-items { 
+   font-size: 0px;
+   
+}
+.li-items {
+   display: inline-block;
+   font-size: 18px;
+   background-color: rgb(102, 102, 97);
+   border: 2px dotted rgb(5, 5, 5);
+   text-align: center;
+   padding: 15px;
+   border-radius: 50%;
+   color: #000;;
+   font-weight: 500;
+   margin: 5px;
+}
+
+
+.mainpage__container{
+   margin: 0 auto;
+   max-width: 1270px;
+   padding-left: 15px;
+   padding-right: 15px;
+   margin-bottom: 300px;;
+}
+
+/* [class*="__container"] {
+   
+} */
+h2{
+   font-weight: 700;
+   color: #212529;
+   font-size: 25px;
+   line-height: 160%; /* 40/25 */
+   margin-bottom: 40px;
+   outline: 2px solid rgb(100, 100, 100);
+   
+}
+
+.text-container {
+   margin: 0 auto 80px;
+   max-width: 816px;
+}
+
+.text-container p{
+   margin-bottom: 40px;
+   outline: 2px solid rgb(145, 164, 232)
+}
+
+img{
+   max-width: 100%;
+}
+
+.pic1-container {
+   margin-bottom: 80px;
+}
+
+.title2{
+   max-width: 605px;
+}
+
+/* .pic1 {
+} */
+.picmain-container {
+   font-size: 0px;
+   margin-bottom: 80px;
+}
+.picmain2 {
+   padding-right: 30px;
+}
+/* .pic3 {
+
+} */
+
+.secondpage-container2{
+   margin: 0 auto;
+   max-width: 1470px;
+   padding-left: 15px;
+   padding-right: 15px; 
+}
+
+.box-container2{
+   margin: 0 auto;
+   max-width: 816px;
+   margin-bottom: 100px;
+}
+
+.picmain-container2 {
+   margin-bottom: 100px;
+}
+.text-container2 {
+   margin-bottom: 100px;
+   opacity: 0.5;
+   box-shadow: 5px 5px 5px black;
+}
+
+.pic-container2 {
+   margin: 0 auto;
+   max-width: 1240px;
+   font-size: 0;
+   margin-bottom: 100px;
+}
+.pic2 {
+   padding-right: 30px;
+}
+/* .pic3 {
+} */
+
+.mainpage{
+   margin-bottom: 80px;
+}
+
+.vis{
+   visibility: hidden;
+}
