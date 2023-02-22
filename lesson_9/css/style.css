@@ -1,0 +1,103 @@
+@import url("reset.css");
+@import url("fonts.css");
+
+body{
+   background: rgba(0, 0, 0, 0.23);
+}
+
+h1{
+   font-weight: 700;
+   font-size: 30px;
+   line-height: 100%;
+   margin-bottom: 30px;
+}
+
+.main-container{
+   margin: 0 auto;
+   max-width: 1240px;
+   margin-top: 50px;
+}
+
+img{
+   max-width: 100%;
+}
+
+.main-container-icons p {
+   max-width: 700px;
+   margin-bottom: 30px;
+}
+
+.main-container-icons-picture img{
+   margin-right: 10px;
+}
+.main-container-icons-picture img:last-child{
+   margin-right: 0px;
+}
+
+.main-container-icons{
+   margin-bottom: 50px;
+}
+
+span{
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 200%; /* 40/20 */
+   font-style: italic;
+}
+
+.main-container-content-image p{
+   margin-bottom: 20px;
+}
+
+.main-container-content-image{
+   margin-bottom: 50px;
+}
+
+.main-container-content-image-pictures{
+   display: inline-block;
+   font-size: 0px;
+   text-align: center;
+   margin-bottom: 40px;
+}
+
+.main-container-content-image-pictures img{
+   border-radius: 15px;
+}
+
+.main-container-content-image-pictures-webp{
+   display: inline-block;
+   font-size: 0px;  
+   text-align: center;
+   margin-bottom: 40px;
+}
+
+.main-container-content-image-pictures-webp img{
+   border-radius: 18px;
+} 
+
+.main-container-content-image-pictures-webp img:nth-child(1){
+   margin-right: 15px;
+}
+
+.main-container-content-image-pictures-webp img:nth-child(2){
+   margin-bottom: 15px;
+}
+
+.main-container-design-elements p{
+   margin-bottom: 30px;
+}
+
+.main-container-design-elements-pic{
+   padding-bottom: 100px;
+   background: url("../img/design_elements/_Shape.svg") 0 0 no-repeat, 
+   url("../img/design_elements/Dotted_Shape1.svg") 10% 0 no-repeat,
+   url("../img/design_elements/shape.svg") 18% 0 no-repeat,
+   url("../img/design_elements/Group1000001858.svg") 28% 0 / 7%  no-repeat,
+   url("../img/design_elements/Oval.svg") 35% 0  no-repeat,
+   url("../img/design_elements/Oval-1.svg") 40% 0  no-repeat,
+   url("../img/design_elements/Dotted_Shape-1.svg") 50% 0  no-repeat,
+   url("../img/design_elements/Ellipse_2706.svg") 60% 0  no-repeat;
+
+
+
+}
