@@ -1,0 +1,266 @@
+@import url("reset.css");
+@import url("fonts.css");
+
+header{
+   padding: 30px 0px;
+   background-color: #fff;
+   position: fixed;
+   width: 100%;
+}
+
+body{
+   font-family: "Inter",serif;
+   font-weight: 500;
+   color: #637381;
+   font-size: 16px;
+   line-height: 150%; /* 24/16 */
+   background: #E5E5E5;
+}
+
+img{
+   max-width: 100%;
+}
+.wraper{
+   overflow: clip;
+   min-height: 100%;
+}
+
+[class*="__container"]{
+   max-width: 1200px;
+   padding-right: 15px;
+   padding-left: 15px;
+   margin: 0 auto;
+}
+
+
+.header__logo{
+   display: inline-block;
+   vertical-align: middle;
+   margin-right: 60px;
+}
+
+.categories__taps{
+   display: inline-block;
+   background-color: #F4F7FF;
+   border-radius: 5px;
+   padding: 10px 25px 10px 20px;
+   color: black;
+}
+
+.header__categories{
+   display: inline-block;
+   margin-right: 60px;
+}
+
+/* .categories__link{
+   padding-bottom: 55px;
+
+} */
+.categories__link::after{
+   content: "";
+   display: inline-block;
+   background: url("../img/icons/categor.svg") 0 0 no-repeat;
+   width: 12px;
+   height: 8px;
+   margin-left: 13px;
+}
+
+
+.categories__sub-menu{
+   position: relative;
+}
+
+
+ .header__categories:hover .sub-menu-categories__items{
+   opacity: 1;
+   visibility: visible;
+}
+
+.header__categories:hover .sub-menu-categories__triangle{
+   opacity: 1;
+   visibility: visible;
+   }
+
+   .items-sub-menu-categories:nth-child(2) :hover .sub-sub-menu-sections{
+      opacity: 1;
+      visibility: visible;
+   }
+   .items-sub-menu-categories__item:hover{
+      color: blue;
+   }
+
+
+.sub-menu-categories__items{
+   position: absolute;
+   left: 10%;
+   top: 40px;
+   background-color: #FFFFFF;
+   visibility: hidden;
+   opacity: 0;
+   z-index: 1;
+   padding: 22px 24px;
+   min-width: 180px;
+   border-radius: 5px;
+}
+.sub-menu-categories__triangle{
+   position: absolute;
+   left: 20%;
+   top: 30px;
+   width: 0;
+   height: 0;
+   border-left: 10px solid transparent;
+   border-right: 10px solid transparent;
+   border-bottom: 10px solid #ffffff;
+   visibility: hidden;
+   opacity: 0;
+   z-index: 1;
+}
+
+.items-sub-menu-categories__item:not(:last-child){
+   margin-bottom: 13px;
+}
+
+.items-sub-menu-categories__item{
+   position: relative;
+}
+
+.sub-menu-categories__items::after{
+   content: "";
+   position: absolute;
+   width: 140%;
+   height: 120%;
+   top: -20%;
+   left: 0%;
+   z-index: -1;
+}
+
+.sub-sub-menu-sections{
+   color: #637381;
+   background-color: #fff;
+   min-width: 685px;
+   position: absolute;
+   top: -35px;
+   left: 119%;
+   padding: 30px;
+   border-radius: 5px;
+   visibility: hidden;
+   opacity: 0;
+   z-index: 1;
+
+}
+.sub-sub-menu-sections__items{
+   display: inline-block;
+}
+
+.sub-sub-menu-sections__items:not(:last-child){
+   margin-right: 80px;
+}
+
+.sub-sub-menu-sections__item_black{
+   font-weight: 600;
+   color: black;
+   margin-bottom: 20px;
+}
+
+.sub-sub-menu-sections__item:not(:last-child){
+   margin-bottom: 12px;
+}
+
+
+.pic-items{
+   display: inline-block;
+   text-align: center;
+   position: relative;
+   vertical-align: top;
+}
+.pic-items__img{
+   opacity: 0.5;
+}
+
+.pic-items__title{
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 121.025%; /* 48.41/40 */
+   position: absolute;
+   top: 100px;
+   left: 10%;
+}
+
+.pic-items__sub-title{
+   position: absolute;
+   top: 50px;
+   left: 10%;
+} 
+
+.pic-items__buttom{
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+
+
+.menu-header{
+   display: inline-block;
+   color: black;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 118.75%; /* 19/16 */
+   margin-right: 100px;
+}
+.menu-header__list{
+   font-size: 0;
+}
+.menu-header__item{
+   display: inline-block;
+   font-size: 16px;
+}
+
+.menu-header__item:not(:last-child){
+   margin-right: 35px;
+}
+
+.menu-header__link:hover{
+   text-decoration: underline;
+}
+
+
+.header__icons{
+   position: relative;
+   display: inline-block;
+
+}
+
+.icons-header__item{
+   display: inline-block;
+}
+
+.icons-header__item:not(:last-child){
+   margin-right: 20px;
+}
+
+
+.icons-header__item span {
+   position: absolute;
+   font-size: 11px;
+   font-weight: 600;
+   top: -3px;
+   right: -5px;
+   background-color: #3056D3;
+   color: #ffff;
+   border-radius: 50%;
+   width: 16px;
+   height: 16px;
+   text-align: center;
+   line-height: 1.5;
+}
+
+.main__title{
+   padding-top: 200px;
+   margin-bottom: 20px;
+}
+
+h2{
+   font-weight: 700;
+   font-size: 30px;
+   color: #000;
+}
